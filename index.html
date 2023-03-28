@@ -340,7 +340,22 @@
 
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button class="modal-close" data-modal-close>
+        <button class="modal-close" data-modal-close type="button"></button> 
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <form class="modal-form">
+               <input 
+               class="modal-input" 
+               type="text" 
+               placeholder="Name"/>
+               <input 
+               class="modal-input" 
+               type="text"
+               placeholder="Phone" />
+            <input class="modal-input" 
+            type="text" 
+            placeholder="Email" />
+                <button type="submit">Send</button>
+            </form>
             <svg class="modal-close-icon" width="8" height="8">
                 <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"> </use>
             </svg>

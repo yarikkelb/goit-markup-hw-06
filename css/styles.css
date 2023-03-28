@@ -635,3 +635,27 @@ background-color: var(--hover-focus);
     background-color: var(--hover-focus);
     fill: var(--hero-F);
 }
+.modal-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;    
+    color: var(--about-subtitle);
+    margin-bottom: 72px;
+}
+.modal-input{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding-left: 16px;
+    font-size: 14px;
+    color: #4D5AE5;
+}
+.modal-input::placeholder{
+    font-size: 12px;
+    
+}
