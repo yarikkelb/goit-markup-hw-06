@@ -647,17 +647,47 @@ background-color: var(--hover-focus);
     color: var(--about-subtitle);
     margin-bottom: 72px;
 }
+.modal-wrap {
+    margin-bottom: 25px;
+}
+.input-wrap{
+    position: relative;
+}
 .modal-input{
     width: 100%;
     height: 45px;
     box-sizing: border-box;
     border: 1px solid #4D5AE5;
     border-radius: 4px;
-    margin-bottom: 10px;
     padding-left: 16px;
     font-size: 14px;
     color: #4D5AE5;
 }
+.modal-svg-icon{
+ position: absolute;
+ left: 5px;
+ top: 50%;
+ transform: translate(-50%);
+}
 .modal-input::placeholder{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 0px;
+    gap: 4px;
+}
+.modal-icon{    
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;    
+    letter-spacing: 0.04em;      
+    color: #8E8F99;
+}
+.modal-label-text{
+    display: inline-block;
+    margin-bottom: 5px;
     font-size: 12px;
 }

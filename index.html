@@ -346,29 +346,47 @@
         </svg>  
         <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form">
-               <input 
-               class="modal-input" 
+               <div class="modal-icon">
+                <div class="modal-wrap">
+                <label for="icon-name" class="modal-label-text">Name</label>
+                <div class="input-wrap">
+                <input class="modal-input" 
                type="text" 
-               placeholder="Name"
-               <svg class="modal-name-icon" width="18" height="24">
+               name="Name"
+               id="icon-name"
+               />
+               <svg class="modal-svg-icon" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-person"></use>
                </svg>
+               </div>
+               </div>
+               <div class="modal-wrap">
+               <label for="icon-phone">Phone</label>
+               <div class="input-wrap">
+               <input class="modal-input" 
+               type="tel"
+               name="Phone"
+               id="icon-phone"
                />
-               <input 
-               class="modal-input" 
-               type="text"
-               placeholder="Phone" 
-               <svg class="modal-phone-icon" width="18" height="24">
+               <svg class="modal-svg-icon" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
                </svg>
+               </div>
+               </div>
+               <div class="modal-wrap">
+               <label for="icon-email">Email</label>
+               <div class="input-wrap">
+               <input class="modal-input" 
+               type="email" 
+               name="Email"
+               id="icon-email"
                />
-            <input class="modal-input" 
-            type="text" 
-            placeholder="Email" 
-            <svg class="modal-email-icon" width="18" height="24">
+               <svg class="modal-svg-icon" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
-            </svg>
-            />
+               </svg>
+            </div>
+            </div>
+            </div>
                 <button type="submit">Send</button>
             </form>
             </div>     
