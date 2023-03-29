@@ -635,6 +635,9 @@ background-color: var(--hover-focus);
     background-color: var(--hover-focus);
     fill: var(--hero-F);
 }
+.no-scroll{
+    overflow: hidden;
+}
 .modal-title{
     font-weight: 500;
     font-size: 16px;
@@ -657,5 +660,4 @@ background-color: var(--hover-focus);
 }
 .modal-input::placeholder{
     font-size: 12px;
-    
 }

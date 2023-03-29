@@ -341,27 +341,38 @@
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button class="modal-close" data-modal-close type="button"></button> 
-            <p class="modal-title">Leave your contacts and we will call you back</p>
+        <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"> </use>
+        </svg>  
+        <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form">
                <input 
                class="modal-input" 
                type="text" 
-               placeholder="Name"/>
+               placeholder="Name"
+               <svg class="modal-name-icon" width="18" height="24">
+                <use href="./images/symbol-defs.svg#icon-person"></use>
+               </svg>
+               />
                <input 
                class="modal-input" 
                type="text"
-               placeholder="Phone" />
+               placeholder="Phone" 
+               <svg class="modal-phone-icon" width="18" height="24">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+               </svg>
+               />
             <input class="modal-input" 
             type="text" 
-            placeholder="Email" />
+            placeholder="Email" 
+            <svg class="modal-email-icon" width="18" height="24">
+                <use href="./images/symbol-defs.svg#icon-email"></use>
+            </svg>
+            />
                 <button type="submit">Send</button>
             </form>
-            <svg class="modal-close-icon" width="8" height="8">
-                <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"> </use>
-            </svg>
-        </button>
-    </div>
-</div>
+            </div>     
+        </div>
 <script src="./js/modal.js"></script>
 </body>
 </html>
