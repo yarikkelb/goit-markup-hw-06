@@ -709,6 +709,18 @@ background-color: var(--hover-focus);
     padding: 24px;
     outline: transparent;
 }
+.check-text span{
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+.modal-check:focus + .check-text span{
+    border-color: 1.25px solid #2E2F42;;
+}
 .modal-button{
     display: flex;
     flex-direction: row;
