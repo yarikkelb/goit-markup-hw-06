@@ -645,13 +645,20 @@ background-color: var(--hover-focus);
     text-align: center;
     letter-spacing: 0.02em;    
     color: var(--about-subtitle);
-    margin-bottom: 72px;
+    padding: 24px 72px;
+    margin-bottom: 16px;
+    left: 24px;
+    
+}
+.modal-cont{
+    margin-bottom: 8px;
 }
 .modal-wrap {
-    margin-bottom: 25px;
+    margin-bottom: 4px;
 }
 .input-wrap{
     position: relative;
+    left: 16px;
 }
 .modal-input{
     width: 100%;
