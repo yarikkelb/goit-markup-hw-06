@@ -335,7 +335,20 @@
             </li>
         </ul>
         </div>
+        <div class="footer__subscribe">
+            <p class="footer__margin">Subscribe</p>
+            <div class="footer__subscribe-form">
+                <label for="e-mail"></label>
+                <input type="email" name="e-mail" id="e-mail" placeholder="E-mail">
+                <button class="subscribe-btn" type="submit">Subscribe
+                    <svg>
+                        <use xlink:href="/img/svg/sprite.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+            </div>
         </div>
+        </div>
+        
     </footer>
 
 <div class="backdrop is-hidden" data-modal>
@@ -343,8 +356,8 @@
         <button class="modal-close" data-modal-close type="button"></button> 
         <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"> </use>
-        </svg>  
-        <p class="modal-title">Leave your contacts and we will call you back</p>
+        </svg>
+            <p class="modal-title">Leave your contacts and we will call you back</p>
             <div class="modal-cont">
             <form class="modal-form">
                <div class="modal-icon">
@@ -385,11 +398,16 @@
                <svg class="modal-svg-icon" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
                </svg>
+               <textarea
+               class="modal-textarea"
+               id="user-comment"
+               placeholder="Comment"
+               ></textarea>
             </div>
             </div>
             </div>
             </div>
-                <button type="submit">Send</button>
+                <button class="modal-button" type="submit">Send</button>
             </form>
             </div>     
         </div>
