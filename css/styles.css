@@ -519,6 +519,11 @@ background-color: var(--hover-focus);
     width: 264px;
     margin: 0 120px 0 0;
 }
+.footer-form{
+    width: 269px;
+    margin: 0 80px 0 0;
+}
+
 .footer-title {
     position: absolute;
     width: 115px;
@@ -587,6 +592,7 @@ background-color: var(--hover-focus);
 .social-icon{
     fill: var(--section-team-background);
 }
+
 /**-----Modal---------*/
 .backdrop{
     position: fixed;
@@ -645,14 +651,12 @@ background-color: var(--hover-focus);
     text-align: center;
     letter-spacing: 0.02em;    
     color: var(--about-subtitle);
-    padding: 24px 72px;
+    padding: 72px 0 24px;
     margin-bottom: 16px;    
 }
 .modal-cont{
     margin-bottom: 8px;
-    display: flex;
-    
-   
+    display: flex;   
 }
 .modal-wrap {
     margin-bottom: 4px;
@@ -672,13 +676,12 @@ background-color: var(--hover-focus);
     color: #4D5AE5;
 }
 .modal-svg-icon{
- position: absolute;
- left: 5px;
- top: 50%;
- transform: translate(-50%);
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translate(-50%);
 }
 .modal-input::placeholder{
-    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -723,9 +726,13 @@ background-color: var(--hover-focus);
 }
 .modal-button{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    justify-content: center;
+    width: 169px;
+    height: 56px;
+    transform: translateX(50%);
+    color: var(--all-btn-bord);
+    background: var(--all-btn);
+    align-items: center;
+    justify-content: center;  
+    border-radius: 4px;  
+    border: none;
 }
