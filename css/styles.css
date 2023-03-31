@@ -728,6 +728,8 @@ background-color: var(--hover-focus);
     align-items: center;
     justify-content: center;
     fill: transparent;
+    padding: 0px;
+    gap: 8px;
 }
 .modal-check:focus + .check-text span{
     border-color: 1.25px solid #2E2F42;;
