@@ -644,6 +644,11 @@ background-color: var(--hover-focus);
 .no-scroll{
     overflow: hidden;
 }
+.modal-group {
+    margin-bottom: 8px;
+    display: flex;
+    padding: 0 24px;
+}
 .modal-title{
     font-weight: 500;
     font-size: 16px;
@@ -651,19 +656,15 @@ background-color: var(--hover-focus);
     text-align: center;
     letter-spacing: 0.02em;    
     color: var(--about-subtitle);
-    padding: 72px 0 24px;
-    margin-bottom: 16px;    
-}
-.modal-cont{
-    margin-bottom: 8px;
-    display: flex;   
+    padding: 72px 24px 0;
+    margin: 0 0 16px 0;  
 }
 .modal-wrap {
     margin-bottom: 4px;
 }
 .input-wrap{
     position: relative;
-    left: 16px;
+    
 }
 .modal-input{
     width: 100%;
