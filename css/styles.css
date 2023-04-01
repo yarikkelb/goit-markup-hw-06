@@ -762,7 +762,7 @@ background-color: var(--hover-focus);
     padding: 8px 16px;
     outline: transparent;
 }
-.check-text span{
+.check-text {
     width: 16px;
     height: 16px;
     font-size: 12px;
@@ -774,7 +774,7 @@ background-color: var(--hover-focus);
     justify-content: center;
     fill: transparent;
     padding: 0px;
-    gap: 24px;
+    margin-bottom: 24px;
 }
 .modal-check:focus + .check-text span{
     border-color: 1.25px solid #2E2F42;;
@@ -792,6 +792,7 @@ background-color: var(--hover-focus);
     border-radius: 4px;  
     border: none;
     transform: translate(50%);
+    margin-top: 24px;
 }
 .modal-button:is(:hover, :focus) {
     background-color: var(--hover-focus);
