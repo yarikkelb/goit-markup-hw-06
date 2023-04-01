@@ -641,9 +641,7 @@ background-color: var(--hover-focus);
     background-color: var(--hover-focus);
     fill: var(--hero-F);
 }
-.modal-close-icon{
-    position: relative;
-}
+
 .no-scroll{
     overflow: hidden;
 }
