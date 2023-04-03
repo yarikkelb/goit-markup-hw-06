@@ -778,7 +778,7 @@ background-color: var(--hover-focus);
 .check-icon-span{ 
     background: var(--section-team-background);
 }
-.check-text span {
+.check-text .check-icon-span {
     width: 16px;
     height: 16px;
     border-radius: 2px; 
@@ -788,11 +788,11 @@ background-color: var(--hover-focus);
     justify-content: center;
     fill: transparent;  
 }
-.modal-check:focus + .check-text span{
+.modal-check:focus + .check-text .check-icon-span{
     background-color: var(--hover-focus);
     border-color: var(--hover-focus);
 }
-.modal-check:checked + .check-text span{
+.modal-check:checked + .check-text .check-icon-span{
     background-color: var(--hover-focus);
     border-color: var(--hover-focus);
     fill: var(--footer-span);
